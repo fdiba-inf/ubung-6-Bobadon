@@ -17,7 +17,7 @@ public class Palindrome {
         while(num > 0) {
             nextDig = num % 10;
             sum = (sum*10) + nextDig;
-            number /= 10;
+            num /= 10;
         }
 
         if(temp == sum) {
